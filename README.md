@@ -1,18 +1,25 @@
 # node.js
 
-node.js tutorials
+[node.js tutorials](https://opentutorials.org/course/2136)
 
-### Syntex
+### 예제
 
 ```javascript
+const express = require('express');
+const app = express();
+
 app.get('/', (req, res) => {
     res.send('<h1>Hello home page</h1>');
 });
-
-app.get();
+app.get('/login', (req, res) => {
+    res.send('<h2>Please Login</h2>');
+});
+app.listen(3000, () => {
+    console.log('Connected 3000 port!');
+});
 ```
 
-### 쓰임
+### 정의
 
 `get()` = 라우터 <br/>
 `get()` 하는 일 = 라우팅
