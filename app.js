@@ -1,5 +1,5 @@
 const express = require('express');
-var app = express();
+const app = express();
 
 app.get('/', (req, res) => {
     res.send('<h1>Hello home page</h1>');
