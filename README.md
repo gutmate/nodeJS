@@ -9,12 +9,12 @@ app.get('/', (req, res) => {
 app.get();
 ```
 
-`get()` = 라우터
+`get()` = 라우터 <br/>
 `get()` 하는 일 = 라우팅
 
-User -> `get('/')` -> `send('Welcome Home')`;
-User -> `get('/login')` -> `send('Login please')`;
-```
+User -> `get('/')` -> `send('Welcome Home')`<br/>
+User -> `get('/login')` -> `send('Login please')`
+
 
 ###라우터의 역할
 
